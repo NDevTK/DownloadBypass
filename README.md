@@ -1,5 +1,5 @@
 # DownloadBypass (Fixed)
-Using subdomains and the history API for a chromium download limit bypass.  
+Using cross-origin pages and the history API for a chromium download limit bypass.  
 Other parts:
 - <https://github.com/NDevTK/website/blob/master/rickroll.html>
 - <https://github.com/NDevTK/website/blob/master/feeder.html>

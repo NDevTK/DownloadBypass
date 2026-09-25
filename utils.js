@@ -14,7 +14,7 @@ function getState(length) {
     if (confirm('Allow state to be saved to localStorage?') || localStorage.getItem("state") !== null) {
         localStorage.setItem("state", state);
     } else {
-        location.href = "https://ndev.tk/";
+        location.href = "https://ndevtk.github.io/website/";
     }
 }
 

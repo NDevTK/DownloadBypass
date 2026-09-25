@@ -5,4 +5,4 @@ Other parts:
 - <https://github.com/NDevTK/website/blob/master/feeder.html>
 
 Chrome bug fixed in <https://issues.chromium.org/40750895>  
-Crash Firefox with <https://rickroll.ndev.tk/crash>
+Crash Firefox with <https://ndevtk.github.io/DownloadBypass/crash>
